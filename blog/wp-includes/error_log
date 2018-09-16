@@ -1,0 +1,1 @@
+[09-Mar-2017 01:04:15 America/Sao_Paulo] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/cidadeor/public_html/blog/wp-includes/rss-functions.php on line 8

@@ -1,0 +1,47 @@
+/* ---------------------------------------------------------------------------------------------------- TABLE JQUERY */
+#tableJquery {
+	width:100%;
+	border-top:1px solid #e3e3e3 !important;
+	border-right:1px solid #e3e3e3 !important;
+}
+#tableJquery .center {
+	text-align:center !important;
+}
+#tableJquery .table_titulo {
+}
+#tableJquery .table_titulo th {
+	padding:15px 15px;
+	background-color:#231f20;
+	color:#fff;
+	border-bottom:1px solid #495c6e !important;
+	border-left:1px solid #302c2d !important;
+	font-family:"MuseoSans_300", Verdana, Geneva, sans-serif !important;
+	font-size:13px;
+}
+#tableJquery tr {
+	background:#fff;
+}
+#tableJquery tr:hover {
+	background:#228e7d !important;
+	color:#fff;
+}
+#tableJquery tr:hover td {
+	border-bottom:1px solid #48c9b0 !important;
+	border-left:1px solid #48c9b0 !important;
+}
+#tableJquery td {
+	border-bottom:1px solid #ecf0f1 !important;
+	border-left:1px solid #fff !important;
+	padding:10px;
+	font-size:13px;
+}
+#tableJquery .paginate_button  {
+	color:#fff !important;
+	background:#ef6352 !important;
+	border:0 !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	padding: 4px 9px !important;
+	margin: 0 3px;
+	cursor: pointer;
+}

@@ -1,0 +1,234 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+
+/* HELVETICA */
+
+@font-face {
+	font-family:"HelveticaNeueLTPro-Bd";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Bd.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-BdCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-BdCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-BdOu";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-BdOu.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Blk";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Blk.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-BlkCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-BlkCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Cn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Cn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Hv";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Hv.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-HvCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-HvCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Lt";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Lt.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-LtCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-LtCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Md";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Md.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-MdCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-MdCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Roman";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Roman.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-Th";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-Th.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-ThCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-ThCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-UltLt";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-UltLt.eot"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-UltLtCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-UltLtCn.otf"); 
+}
+@font-face {
+	font-family:"HelveticaNeueLTPro-XBlkCn";
+	src: url("../fonts/helvetica/HelveticaNeueLTPro-XBlkCn.otf"); 
+}
+
+
+
+
+body {
+	width:100%;
+	position:absolute;
+	max-width:100%;
+	height:100%;
+	background-color:#ecf0f1;
+	background-image:url(../images/background.jpg);
+	color:#fff;
+	font-style:normal;
+	font-weight:normal;
+	font-size:13px;
+	line-height:1.5;
+	font-family:"HelveticaNeueLTPro-UltLt", Verdana, Geneva, sans-serif;	
+	overflow-y:hidden;
+	overflow-x:hidden;
+	text-align:center;
+}
+
+
+
+
+/************************************************************ GERAL ****/
+*::-moz-selection {
+background:#ef6352;
+color:#ffffff;
+}
+*::selection {
+background:#ef6352;
+color:#ffffff;
+}
+a {
+	text-decoration:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-decoration:none;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	opacity:0.8;
+}
+strong {
+	font-family:"HelveticaNeueLTPro-Md", Verdana, Geneva, sans-serif;
+	font-weight:normal;
+}
+input, textarea, select {
+	font-family:"HelveticaNeueLTPro-UltLt", Verdana, Geneva, sans-serif;
+}
+.line {
+	float:left;
+	clear:both;
+	width:100%;
+	padding:5px 0;
+}
+/*.logo {
+	font-size:30%;
+	margin:50px 0;
+}*/
+.logo {
+	margin:50px 0;	
+}
+.logo h1 {
+	color:#000;
+	font-size:130px;
+	margin:0 0 -30px 0;
+	opacity:0.5;
+}
+.logo h2 {
+	color:#fff;
+	font-size:32px;
+	opacity:0.8;
+}
+.texto {
+	width:70%;
+	margin:0 auto;
+}
+.texto h1 {
+	color:#000;
+	font-size:36px;
+}
+.texto h2 {
+	color:#fff;
+	font-size:28px;
+	margin:10px 0 15px;
+}
+.texto h3 {
+	color:#fff;
+	font-size:22px;
+}
+.form lagel {
+	font-size:18px;
+}
+.form .line {
+	float:left;
+	clear:both;
+	margin:25px 0;
+}
+.form .line .fields {
+	width:60%;
+	margin:0 auto;
+}
+.form .line .field {
+	float:left;
+	display:inline;
+	margin:0 4% 0 0;
+}
+.form .line span {
+	color:#fff;
+	font-style:19px;
+	opacity:0.6;
+}
+input[type="text"] {
+	font-size:34px;
+	color:#333;
+	padding:15px 5%;
+	width:90%;
+	border:1px solid #fff;
+	opacity:0.7;
+}
+input[type="text"]:focus {
+	opacity:1;
+}
+input[type="button"], input[type="submit"] {
+	font-size:34px;
+	color:#fff;
+	text-align:center;
+	padding:15px 10%;
+	cursor:pointer;
+	border:1px solid #fff;
+	background:none;
+}
+input[type="button"]:hover, input[type="submit"]:hover {
+	background:#000;
+	border:1px solid #000;
+	opacity:0.8;
+}
+.logo-diogo {
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	width:70px;
+	opacity:0.4;
+}
+.logo-diogo:hover {
+	opacity:1;
+}
+.enviado {
+	width:60%;
+	margin:0 auto;
+	border:1px solid #fff;
+	padding:30px 0;
+	font-size:42px;
+}

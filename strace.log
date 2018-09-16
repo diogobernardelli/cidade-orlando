@@ -1,0 +1,1290 @@
+9282  00:16:06 execve("/usr/local/bin/php", ["php", "index.php"], ["HOSTNAME=sis01.sisrnservers.net", "TERM=xterm-256color", "SHELL=/bin/bash", "HISTSIZE=1000", "SSH_CLIENT=208.74.125.2 30076 22", "SSH_TTY=/dev/pts/0", "HISTFILESIZE=100000", "USER=root", "LS_COLORS=rs=0:di=01;34:ln=01;36"..., "MAIL=/var/spool/mail/root", "PATH=/usr/local/jdk/bin:/usr/loc"..., "PWD=/home/cidadeor/public_html", "JAVA_HOME=/usr/local/jdk", "EDITOR=pico", "LANG=en_US.UTF-8", "PS1=[\\t \\h \\u@7444671 \\w]cPs# ", "HISTCONTROL=ignoredups", "SHLVL=1", "HOME=/root", "LS_OPTIONS=--color=tty -F -a -b "..., "LOGNAME=root", "VISUAL=pico", "CVS_RSH=ssh", "CLASSPATH=.:/usr/local/jdk/lib/c"..., "SSH_CONNECTION=208.74.125.2 3007"..., "LESSOPEN=||/usr/bin/lesspipe.sh "..., "G_BROKEN_FILENAMES=1", "HISTTIMEFORMAT=%F %T ", "HISTFILE=/root/.bash_history.cpa"..., "_=/usr/bin/strace", "OLDPWD=/root"]) = 0
+9282  00:16:06 brk(0)                   = 0x1d9e000
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dea000
+9282  00:16:06 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt/lib/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt/lib/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt/lib/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt/lib/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt/lib/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt/lib/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt/lib", {st_dev=makedev(202, 1), st_ino=12107788, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:36:02, st_mtime=2015/05/22-14:28:32, st_ctime=2016/01/25-21:15:37}) = 0
+9282  00:16:06 open("/opt/pcre/lib/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib", {st_dev=makedev(202, 1), st_ino=12108005, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:31:31, st_mtime=2015/05/22-14:23:09, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 open("/opt/curlssl/lib/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl/lib/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl/lib/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl/lib/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl/lib", {st_dev=makedev(202, 1), st_ino=12108316, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:35:13, st_mtime=2015/05/22-14:27:40, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 open("/opt/xml2/lib/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/xml2/lib/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/xml2/lib/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/xml2/lib/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/xml2/lib", {st_dev=makedev(202, 1), st_ino=12108769, st_mode=S_IFDIR|0755, st_nlink=4, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:35:11, st_mtime=2015/05/22-14:26:31, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 open("/opt/pcre/lib64/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib64/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib64/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib64/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/pcre/lib64", {st_dev=makedev(202, 1), st_ino=12108005, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:31:31, st_mtime=2015/05/22-14:23:09, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 open("/opt/curlssl//lib64/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl//lib64/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl//lib64/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl//lib64/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/curlssl//lib64", {st_dev=makedev(202, 1), st_ino=12108316, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:35:13, st_mtime=2015/05/22-14:27:40, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/php_with_imap_client//lib64/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/php_with_imap_client//lib64/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/php_with_imap_client//lib64/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/php_with_imap_client//lib64", {st_dev=makedev(202, 1), st_ino=12116050, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:36:01, st_mtime=2012/08/07-00:39:40, st_ctime=2016/01/25-21:15:40}) = 0
+9282  00:16:06 open("/opt/libmcrypt//lib64/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt//lib64/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt//lib64/tls", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt//lib64/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/opt/libmcrypt//lib64", {st_dev=makedev(202, 1), st_ino=12107788, st_mode=S_IFDIR|0755, st_nlink=3, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:36:02, st_mtime=2015/05/22-14:28:32, st_ctime=2016/01/25-21:15:37}) = 0
+9282  00:16:06 open("/usr/lib64/tls/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/usr/lib64/tls/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/usr/lib64/tls", {st_dev=makedev(202, 1), st_ino=3964929, st_mode=S_IFDIR|0555, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/25-21:10:05, st_mtime=2011/09/23-08:50:20, st_ctime=2016/01/25-21:09:45}) = 0
+9282  00:16:06 open("/usr/lib64/x86_64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/usr/lib64/x86_64", 0x7fff7c865780) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libcrypt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 stat("/usr/lib64", {st_dev=makedev(202, 1), st_ino=3958378, st_mode=S_IFDIR|0555, st_nlink=44, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=48, st_size=24576, st_atime=2016/01/26-20:10:33, st_mtime=2016/01/27-00:09:42, st_ctime=2016/01/27-00:09:42}) = 0
+9282  00:16:06 open("/etc/ld.so.cache", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=1213468, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31033, st_atime=2016/01/26-23:49:11, st_mtime=2016/01/25-23:49:09, st_ctime=2016/01/25-23:49:09}) = 0
+9282  00:16:06 mmap(NULL, 31033, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3598de2000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/lib64/libcrypt.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\f\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893715, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=40400, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:57, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2318816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3598995000
+9282  00:16:06 mprotect(0x7f359899c000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3598b9c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f3598b9c000
+9282  00:16:06 mmap(0x7f3598b9e000, 184800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3598b9e000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libz.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libz.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 !\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893789, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=184, st_size=88600, st_atime=2016/01/26-21:10:12, st_mtime=2013/02/21-20:02:16, st_ctime=2016/01/25-21:10:10}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de1000
+9282  00:16:06 mmap(NULL, 2183696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359877f000
+9282  00:16:06 mprotect(0x7f3598794000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3598993000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f3598993000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libmysqlclient.so.18", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libmysqlclient.so.18", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\347\2\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=29999129, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=15080, st_size=7705095, st_atime=2016/01/26-21:36:03, st_mtime=2015/12/07-05:10:37, st_ctime=2016/01/25-21:25:33}) = 0
+9282  00:16:06 mmap(NULL, 5642488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359821d000
+9282  00:16:06 mprotect(0x7f35984f6000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35986f6000, 540672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2d9000) = 0x7f35986f6000
+9282  00:16:06 mmap(0x7f359877a000, 18680, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f359877a000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libmcrypt.so.4", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220Q\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=12107790, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1088, st_size=552326, st_atime=2016/01/26-21:25:26, st_mtime=2015/05/22-14:28:32, st_ctime=2016/01/25-21:15:37}) = 0
+9282  00:16:06 mmap(NULL, 2301248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597feb000
+9282  00:16:06 mprotect(0x7f3598015000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3598214000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f3598214000
+9282  00:16:06 mmap(0x7f3598218000, 19776, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3598218000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libltdl.so.7", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libltdl.so.7", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p#\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3963219, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=36880, st_atime=2016/01/26-21:22:05, st_mtime=2010/08/24-16:42:48, st_ctime=2016/01/25-21:14:41}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de0000
+9282  00:16:06 mmap(NULL, 2132136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597de2000
+9282  00:16:06 mprotect(0x7f3597deb000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3597fea000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f3597fea000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libcrypto.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libcrypto.so.10", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\234\6\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3958415, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3848, st_size=1963296, st_atime=2016/01/26-21:11:12, st_mtime=2016/01/07-17:22:23, st_ctime=2016/01/25-21:10:36}) = 0
+9282  00:16:06 mmap(NULL, 4075384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35979ff000
+9282  00:16:06 mprotect(0x7f3597bb8000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3597db7000, 159744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b8000) = 0x7f3597db7000
+9282  00:16:06 mmap(0x7f3597dde000, 16248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3597dde000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libssl.so.10", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libssl.so.10", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\203\1\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3958396, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=872, st_size=441256, st_atime=2016/01/26-21:12:27, st_mtime=2016/01/07-17:22:23, st_ctime=2016/01/25-21:10:36}) = 0
+9282  00:16:06 mmap(NULL, 2536648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597793000
+9282  00:16:06 mprotect(0x7f35977f5000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35979f4000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x61000) = 0x7f35979f4000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libpam.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libpam.so.0", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320#\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893680, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=120, st_size=55848, st_atime=2016/01/26-21:10:29, st_mtime=2015/08/18-11:26:42, st_ctime=2016/01/25-21:10:25}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598ddf000
+9282  00:16:06 mmap(NULL, 2150944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597585000
+9282  00:16:06 mprotect(0x7f3597591000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3597791000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7f3597791000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libX11.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libX11.so.6", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\335\1\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3962176, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2544, st_size=1297928, st_atime=2016/01/26-21:14:42, st_mtime=2015/07/24-05:03:18, st_ctime=2016/01/25-21:14:30}) = 0
+9282  00:16:06 mmap(NULL, 3394968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597248000
+9282  00:16:06 mprotect(0x7f359737f000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f359757f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x137000) = 0x7f359757f000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libXpm.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libXpm.so.4", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`/\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3962182, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=152, st_size=70320, st_atime=2016/01/26-21:22:05, st_mtime=2013/02/21-16:07:51, st_ctime=2016/01/25-21:14:30}) = 0
+9282  00:16:06 mmap(NULL, 2165496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3597037000
+9282  00:16:06 mprotect(0x7f3597048000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3597247000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f3597247000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libpng12.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libpng12.so.0", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000H\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3959566, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=312, st_size=155456, st_atime=2016/01/26-21:14:36, st_mtime=2015/12/09-11:53:13, st_ctime=2016/01/25-21:14:17}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dde000
+9282  00:16:06 mmap(NULL, 2250552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3596e11000
+9282  00:16:06 mprotect(0x7f3596e36000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3597036000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f3597036000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libjpeg.so.62", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libjpeg.so.62", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 =\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3959498, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=528, st_size=262896, st_atime=2016/01/26-21:14:36, st_mtime=2013/12/09-21:37:02, st_ctime=2016/01/25-21:14:17}) = 0
+9282  00:16:06 mmap(NULL, 2423648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3596bc1000
+9282  00:16:06 mprotect(0x7f3596c00000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3596e00000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3f000) = 0x7f3596e00000
+9282  00:16:06 mmap(0x7f3596e01000, 64352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3596e01000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libbz2.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libbz2.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\26\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893689, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=144, st_size=67592, st_atime=2016/01/26-21:08:31, st_mtime=2011/06/24-22:45:55, st_ctime=2016/01/25-20:57:09}) = 0
+9282  00:16:06 mmap(NULL, 2162768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35969b0000
+9282  00:16:06 mprotect(0x7f35969c0000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3596bbf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf000) = 0x7f3596bbf000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libpcre.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libpcre.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\23\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=12108012, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1360, st_size=690887, st_atime=2016/01/26-21:25:26, st_mtime=2015/05/22-14:23:09, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598ddd000
+9282  00:16:06 mmap(NULL, 2368648, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359676d000
+9282  00:16:06 mprotect(0x7f35967af000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35969af000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x42000) = 0x7f35969af000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/librt.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/librt.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@!\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893697, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43880, st_atime=2016/01/26-21:10:08, st_mtime=2015/09/22-14:33:55, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2128816, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3596565000
+9282  00:16:06 mprotect(0x7f359656c000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f359676b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f359676b000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libm.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libm.so.6", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p>\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893824, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1176, st_size=596272, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:56, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2633912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35962e1000
+9282  00:16:06 mprotect(0x7f3596364000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3596563000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x82000) = 0x7f3596563000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libdl.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libdl.so.2", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\r\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893790, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=19536, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:56, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598ddc000
+9282  00:16:06 mmap(NULL, 2109696, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35960dd000
+9282  00:16:06 mprotect(0x7f35960df000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35962df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f35962df000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libnsl.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libnsl.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p@\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893657, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=113432, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:57, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2198192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3595ec4000
+9282  00:16:06 mprotect(0x7f3595eda000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35960d9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f35960d9000
+9282  00:16:06 mmap(0x7f35960db000, 6832, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35960db000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libgssapi_krb5.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libgssapi_krb5.so.2", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\254\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893816, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=552, st_size=277704, st_atime=2016/01/26-21:11:12, st_mtime=2015/07/24-00:28:26, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 mmap(NULL, 2373600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3595c80000
+9282  00:16:06 mprotect(0x7f3595cc1000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3595ec1000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x41000) = 0x7f3595ec1000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libkrb5.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libkrb5.so.3", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\264\1\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893785, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1856, st_size=946048, st_atime=2016/01/26-21:11:12, st_mtime=2015/07/24-00:28:26, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598ddb000
+9282  00:16:06 mmap(NULL, 3041984, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3595999000
+9282  00:16:06 mprotect(0x7f3595a74000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3595c74000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xdb000) = 0x7f3595c74000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libk5crypto.so.3", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libk5crypto.so.3", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320C\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893692, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=352, st_size=174840, st_atime=2016/01/26-21:11:12, st_mtime=2015/07/24-00:28:26, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 mmap(NULL, 2273704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359576d000
+9282  00:16:06 mprotect(0x7f3595796000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3595996000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f3595996000
+9282  00:16:06 mmap(0x7f3595998000, 424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3595998000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libcom_err.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libcom_err.so.2", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\23\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893812, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=32, st_size=14664, st_atime=2016/01/26-21:11:12, st_mtime=2015/07/24-07:33:24, st_ctime=2016/01/25-21:10:10}) = 0
+9282  00:16:06 mmap(NULL, 2109872, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3595569000
+9282  00:16:06 mprotect(0x7f359556c000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f359576b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f359576b000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libcurl.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libcurl.so.4", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libcurl.so.4", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\202\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=12108323, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=864, st_size=437380, st_atime=2016/01/26-21:25:26, st_mtime=2015/05/22-14:27:40, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dda000
+9282  00:16:06 mmap(NULL, 2485960, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359530a000
+9282  00:16:06 mprotect(0x7f3595367000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3595566000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x5c000) = 0x7f3595566000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libidn.so.11", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libidn.so.11", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0/\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893718, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=416, st_size=206672, st_atime=2016/01/26-21:08:33, st_mtime=2010/08/23-21:51:20, st_ctime=2016/01/25-20:57:09}) = 0
+9282  00:16:06 mmap(NULL, 2301768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35950d8000
+9282  00:16:06 mprotect(0x7f359510a000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3595309000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x31000) = 0x7f3595309000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libfreetype.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libfreetype.so.6", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\310\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3959487, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1272, st_size=644104, st_atime=2016/01/26-21:14:23, st_mtime=2015/03/17-13:52:50, st_ctime=2016/01/25-21:14:15}) = 0
+9282  00:16:06 mmap(NULL, 2739344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3594e3b000
+9282  00:16:06 mprotect(0x7f3594ed3000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35950d2000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x97000) = 0x7f35950d2000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libxml2.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libxml2.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libxml2.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libxml2.so.2", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \340\2\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=12108770, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8464, st_size=4319965, st_atime=2016/01/26-21:25:26, st_mtime=2015/05/22-14:26:30, st_ctime=2016/01/25-21:15:38}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd9000
+9282  00:16:06 mmap(NULL, 3513496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3594ae1000
+9282  00:16:06 mprotect(0x7f3594c31000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3594e30000, 40960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14f000) = 0x7f3594e30000
+9282  00:16:06 mmap(0x7f3594e3a000, 3224, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3594e3a000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libc.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libc.so.6", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\356\1\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893787, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=3760, st_size=1920936, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:56, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 3750152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f359474d000
+9282  00:16:06 mprotect(0x7f35948d7000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3594ad7000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18a000) = 0x7f3594ad7000
+9282  00:16:06 mmap(0x7f3594adc000, 18696, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f3594adc000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libresolv.so.2", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libresolv.so.2", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00009\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893781, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=110960, st_atime=2016/01/26-21:10:08, st_mtime=2015/09/22-14:33:55, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2202248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3594533000
+9282  00:16:06 mprotect(0x7f3594549000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3594749000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f3594749000
+9282  00:16:06 mmap(0x7f359474b000, 6792, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f359474b000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libfreebl3.so", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libfreebl3.so", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\n\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893823, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10312, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/01-02:54:27, st_ctime=2016/01/25-21:09:52}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd8000
+9282  00:16:06 mmap(NULL, 2105520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3594330000
+9282  00:16:06 mprotect(0x7f3594332000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3594531000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f3594531000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libpthread.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libpthread.so.0", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340]\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893918, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=288, st_size=142640, st_atime=2016/01/26-21:10:05, st_mtime=2015/09/22-14:33:57, st_ctime=2016/01/25-21:10:03}) = 0
+9282  00:16:06 mmap(NULL, 2212848, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3594113000
+9282  00:16:06 mprotect(0x7f359412a000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f359432a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f359432a000
+9282  00:16:06 mmap(0x7f359432c000, 13296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f359432c000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libaudit.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libaudit.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20(\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893925, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=288, st_size=141768, st_atime=2016/01/26-21:10:45, st_mtime=2014/10/15-09:54:13, st_ctime=2016/01/25-21:10:10}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd7000
+9282  00:16:06 mmap(NULL, 2236976, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3593ef0000
+9282  00:16:06 mprotect(0x7f3593f07000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3594107000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f3594107000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libxcb.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libxcb.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\231\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3959891, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=248, st_size=122520, st_atime=2016/01/26-21:14:42, st_mtime=2015/07/24-04:34:00, st_ctime=2016/01/25-21:14:23}) = 0
+9282  00:16:06 mmap(NULL, 2217800, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3593cd2000
+9282  00:16:06 mprotect(0x7f3593cf0000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3593eef000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7f3593eef000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libkrb5support.so.0", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libkrb5support.so.0", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@*\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893684, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=88, st_size=43728, st_atime=2016/01/26-21:11:12, st_mtime=2015/07/24-00:28:26, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd6000
+9282  00:16:06 mmap(NULL, 2139216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f3593ac7000
+9282  00:16:06 mprotect(0x7f3593ad1000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3593cd0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f3593cd0000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libkeyutils.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libkeyutils.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\v\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893811, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10192, st_atime=2016/01/26-21:10:32, st_mtime=2014/10/15-08:08:05, st_ctime=2016/01/25-21:10:30}) = 0
+9282  00:16:06 mmap(NULL, 2105424, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35938c4000
+9282  00:16:06 mprotect(0x7f35938c6000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f3593ac5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f3593ac5000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libXau.so.6", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libXau.so.6", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\r\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3959847, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10856, st_atime=2016/01/26-21:14:42, st_mtime=2013/02/21-15:44:53, st_ctime=2016/01/25-21:14:23}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd5000
+9282  00:16:06 mmap(NULL, 2106112, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35936c1000
+9282  00:16:06 mprotect(0x7f35936c3000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35938c3000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f35938c3000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/opt/libmcrypt/lib/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl/lib/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/xml2/lib/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/pcre/lib64/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/curlssl//lib64/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/php_with_imap_client//lib64/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/opt/libmcrypt//lib64/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/tls/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/lib64/libselinux.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/lib64/libselinux.so.1", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320X\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893818, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=248, st_size=122040, st_atime=2016/01/26-21:10:12, st_mtime=2014/10/15-08:42:33, st_ctime=2016/01/25-21:10:10}) = 0
+9282  00:16:06 mmap(NULL, 2221912, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f35934a2000
+9282  00:16:06 mprotect(0x7f35934bf000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f35936be000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f35936be000
+9282  00:16:06 mmap(0x7f35936c0000, 1880, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f35936c0000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd4000
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd3000
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd2000
+9282  00:16:06 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598dd0000
+9282  00:16:06 arch_prctl(ARCH_SET_FS, 0x7f3598dd07c0) = 0
+9282  00:16:06 mprotect(0x7f35936be000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3593ac5000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3593cd0000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3594107000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f359432a000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3594531000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3594749000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3594ad7000, 16384, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f359576b000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3595996000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3595c74000, 40960, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3595ec1000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f35960d9000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f35962df000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3596563000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f359676b000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3597791000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f35979f4000, 16384, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3597db7000, 110592, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3598993000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3598b9c000, 4096, PROT_READ) = 0
+9282  00:16:06 mprotect(0x7f3598deb000, 4096, PROT_READ) = 0
+9282  00:16:06 munmap(0x7f3598de2000, 31033) = 0
+9282  00:16:06 set_tid_address(0x7f3598dd0a90) = 9282
+9282  00:16:06 set_robust_list(0x7f3598dd0aa0, 24) = 0
+9282  00:16:06 futex(0x7fff7c86607c, FUTEX_WAKE_PRIVATE, 1) = 0
+9282  00:16:06 futex(0x7fff7c86607c, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f3598dd07c0) = -1 EAGAIN (Resource temporarily unavailable)
+9282  00:16:06 rt_sigaction(SIGRTMIN, {0x7f3594118c60, [], SA_RESTORER|SA_SIGINFO, 0x7f3594122790}, NULL, 8) = 0
+9282  00:16:06 rt_sigaction(SIGRT_1, {0x7f3594118cf0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f3594122790}, NULL, 8) = 0
+9282  00:16:06 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+9282  00:16:06 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=8192*1024}) = 0
+9282  00:16:06 statfs("/selinux", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=154818498, f_bfree=88448271, f_bavail=80583951, f_files=39321600, f_ffree=35247318, f_fsid={1031334327, -1561277355}, f_namelen=255, f_frsize=4096}) = 0
+9282  00:16:06 brk(0)                   = 0x1d9e000
+9282  00:16:06 brk(0x1dbf000)           = 0x1dbf000
+9282  00:16:06 open("/proc/filesystems", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(0, 3), st_ino=4026532124, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/27-00:16:06}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tb"..., 1024) = 307
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 open("/proc/mounts", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(0, 3), st_ino=11155092, st_mode=S_IFREG|0444, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/27-00:16:06}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "rootfs / rootfs rw 0 0\n/proc /pr"..., 1024) = 1024
+9282  00:16:06 read(3, "me/virtfs/hospedag/tmp ext3 rw,n"..., 1024) = 1024
+9282  00:16:06 read(3, "etc/mail ext3 rw,nosuid,noexec,r"..., 1024) = 1024
+9282  00:16:06 read(3, "marcogom/dev devtmpfs rw,nosuid,"..., 1024) = 1024
+9282  00:16:06 read(3, ",data=ordered,jqfmt=vfsv0,usrjqu"..., 1024) = 1024
+9282  00:16:06 read(3, "latime,errors=remount-ro,barrier"..., 1024) = 1024
+9282  00:16:06 read(3, "jqfmt=vfsv0,usrjquota=quota.user"..., 1024) = 1024
+9282  00:16:06 read(3, "tfs/mdesigne/dev devtmpfs rw,nos"..., 1024) = 1024
+9282  00:16:06 read(3, "er=0,data=ordered,jqfmt=vfsv0,us"..., 1024) = 1024
+9282  00:16:06 read(3, "c,relatime,errors=remount-ro,bar"..., 1024) = 1024
+9282  00:16:06 read(3, "red,jqfmt=vfsv0,usrjquota=quota."..., 1024) = 1024
+9282  00:16:06 read(3, "/sbin ext3 ro,nosuid,relatime,er"..., 1024) = 1024
+9282  00:16:06 read(3, "c/pki/tls ext3 ro,nosuid,relatim"..., 1024) = 1024
+9282  00:16:06 read(3, "t3 rw,relatime,errors=remount-ro"..., 1024) = 1024
+9282  00:16:06 read(3, "dev/xvda1 /home/virtfs/host/var "..., 1024) = 1024
+9282  00:16:06 read(3, "w,nosuid,noexec,relatime,errors="..., 1024) = 1024
+9282  00:16:06 read(3, ",jqfmt=vfsv0,usrjquota=quota.use"..., 1024) = 1024
+9282  00:16:06 read(3, "me/virtfs/edutecac/usr ext3 ro,n"..., 1024) = 1024
+9282  00:16:06 read(3, "ecac/usr/sbin ext3 ro,relatime,e"..., 1024) = 1024
+9282  00:16:06 read(3, "0,data=ordered,jqfmt=vfsv0,usrjq"..., 1024) = 531
+9282  00:16:06 read(3, "", 1024)        = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 access("/usr/share/dracut/modules.d/01fips", F_OK) = -1 ENOENT (No such file or directory)
+9282  00:16:06 rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f359477f6a0}, {SIG_DFL, [], 0}, 8) = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598d8f000
+9282  00:16:06 mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598c8e000
+9282  00:16:06 open("/usr/lib/locale/locale-archive", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3973677, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=193784, st_size=99154480, st_atime=2016/01/26-21:15:43, st_mtime=2016/01/25-21:10:01, st_ctime=2016/01/25-21:10:29}) = 0
+9282  00:16:06 mmap(NULL, 99154480, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f358d612000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/etc/localtime", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3948957, st_mode=S_IFREG|0644, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2001, st_atime=2016/01/26-21:12:53, st_mtime=2015/10/07-13:19:06, st_ctime=2016/01/25-21:09:48}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3948957, st_mode=S_IFREG|0644, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=2001, st_atime=2016/01/26-21:12:53, st_mtime=2015/10/07-13:19:06, st_ctime=2016/01/25-21:09:48}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 2001
+9282  00:16:06 lseek(3, -1280, SEEK_CUR) = 721
+9282  00:16:06 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\3\0\0\0\3\0\0\0\0"..., 4096) = 1280
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 lstat("/usr/local/jdk/bin/php", 0x7fff7c862ad0) = -1 ENOENT (No such file or directory)
+9282  00:16:06 lstat("/usr/local/sbin/php", 0x7fff7c862ad0) = -1 ENOENT (No such file or directory)
+9282  00:16:06 lstat("/usr/local/bin/php", {st_dev=makedev(202, 1), st_ino=3974930, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=67240, st_size=34384035, st_atime=2016/01/27-00:05:21, st_mtime=2016/01/25-23:43:47, st_ctime=2016/01/25-23:43:47}) = 0
+9282  00:16:06 lstat("/usr/local/bin", {st_dev=makedev(202, 1), st_ino=3973615, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-20:10:33, st_mtime=2016/01/25-23:44:46, st_ctime=2016/01/25-23:44:46}) = 0
+9282  00:16:06 lstat("/usr/local", {st_dev=makedev(202, 1), st_ino=3973587, st_mode=S_IFDIR|0755, st_nlink=20, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-20:10:33, st_mtime=2016/01/25-23:44:49, st_ctime=2016/01/25-23:44:49}) = 0
+9282  00:16:06 lstat("/usr", {st_dev=makedev(202, 1), st_ino=3923969, st_mode=S_IFDIR|0755, st_nlink=13, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2011/09/23-08:50:20, st_mtime=2016/01/25-21:29:05, st_ctime=2016/01/25-21:29:05}) = 0
+9282  00:16:06 access("/usr/local/bin/php", X_OK) = 0
+9282  00:16:06 stat("/usr/local/bin/php", {st_dev=makedev(202, 1), st_ino=3974930, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=67240, st_size=34384035, st_atime=2016/01/27-00:05:21, st_mtime=2016/01/25-23:43:47, st_ctime=2016/01/25-23:43:47}) = 0
+9282  00:16:06 open("/usr/local/bin/php-cli.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/local/lib/php-cli.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/local/bin/php.ini", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 open("/usr/local/lib/php.ini", O_RDONLY) = 3
+9282  00:16:06 ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7c863830) = -1 ENOTTY (Inappropriate ioctl for device)
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3974773, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=37155, st_atime=2016/01/26-01:18:30, st_mtime=2016/01/25-23:44:49, st_ctime=2016/01/25-23:44:49}) = 0
+9282  00:16:06 mmap(NULL, 37187, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3598c84000
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=3974773, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=80, st_size=37155, st_atime=2016/01/26-01:18:30, st_mtime=2016/01/25-23:44:49, st_ctime=2016/01/25-23:44:49}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 lseek(3, 0, SEEK_CUR)    = 0
+9282  00:16:06 munmap(0x7f3598c84000, 37187) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 mmap(NULL, 323584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598c3f000
+9282  00:16:06 brk(0x1de0000)           = 0x1de0000
+9282  00:16:06 brk(0x1e01000)           = 0x1e01000
+9282  00:16:06 brk(0x1e22000)           = 0x1e22000
+9282  00:16:06 brk(0x1e43000)           = 0x1e43000
+9282  00:16:06 futex(0x7f35962e00ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 open("/usr/local/IonCube/ioncube_loader_lin_5.4.so", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\315\2\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=4382942, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=2312, st_size=1178392, st_atime=2016/01/26-01:18:30, st_mtime=2016/01/25-23:44:49, st_ctime=2016/01/25-23:44:49}) = 0
+9282  00:16:06 mmap(NULL, 2236280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f358d3f0000
+9282  00:16:06 mprotect(0x7f358d500000, 1044480, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f358d5ff000, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10f000) = 0x7f358d5ff000
+9282  00:16:06 mmap(0x7f358d60f000, 12152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f358d60f000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300Y\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=4169839, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=688, st_size=345868, st_atime=2016/01/26-23:44:49, st_mtime=2016/01/25-23:43:46, st_ctime=2016/01/25-23:43:46}) = 0
+9282  00:16:06 mmap(NULL, 2197776, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f358d1d7000
+9282  00:16:06 mprotect(0x7f358d1ed000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f358d3ed000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f358d3ed000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_sqlite.so", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20z\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=4169777, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=6216, st_size=3178182, st_atime=2016/01/26-23:44:49, st_mtime=2016/01/25-23:43:46, st_ctime=2016/01/25-23:43:46}) = 0
+9282  00:16:06 mmap(NULL, 2864512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f358cf1b000
+9282  00:16:06 mprotect(0x7f358cfd3000, 2093056, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f358d1d2000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb7000) = 0x7f358d1d2000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so", O_RDONLY) = 3
+9282  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\33\0\0\0\0\0\0"..., 832) = 832
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=4169775, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=528, st_size=263681, st_atime=2016/01/26-23:44:49, st_mtime=2016/01/25-23:43:46, st_ctime=2016/01/25-23:43:46}) = 0
+9282  00:16:06 mmap(NULL, 2123536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f358cd14000
+9282  00:16:06 mprotect(0x7f358cd1a000, 2097152, PROT_NONE) = 0
+9282  00:16:06 mmap(0x7f358cf1a000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f358cf1a000
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 gettimeofday({1453860966, 249597}, NULL) = 0
+9282  00:16:06 futex(0x7f3594e3a940, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 brk(0x1e64000)           = 0x1e64000
+9282  00:16:06 brk(0x1e85000)           = 0x1e85000
+9282  00:16:06 open("/etc/pki/tls/openssl.cnf", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=1212581, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=24, st_size=10906, st_atime=2016/01/26-21:11:12, st_mtime=2015/12/21-12:12:57, st_ctime=2016/01/25-21:10:36}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+9282  00:16:06 read(3, ": ancient versions of Netscape c"..., 4096) = 4096
+9282  00:16:06 read(3, "against PKIX guidelines but some"..., 4096) = 2714
+9282  00:16:06 read(3, "", 4096)        = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 brk(0x1ea6000)           = 0x1ea6000
+9282  00:16:06 brk(0x1ec7000)           = 0x1ec7000
+9282  00:16:06 brk(0x1ee8000)           = 0x1ee8000
+9282  00:16:06 brk(0x1f09000)           = 0x1f09000
+9282  00:16:06 brk(0x1f2a000)           = 0x1f2a000
+9282  00:16:06 mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f358c513000
+9282  00:16:06 mprotect(0x7f358c513000, 4096, PROT_NONE) = 0
+9282  00:16:06 clone(child_stack=0x7f358cd12f30, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f358cd139d0, tls=0x7f358cd13700, child_tidptr=0x7f358cd139d0) = 9283
+9282  00:16:06 futex(0x7f358cd139d0, FUTEX_WAIT, 9283, NULL <unfinished ...>
+9283  00:16:06 set_robust_list(0x7f358cd139e0, 24) = 0
+9283  00:16:06 open("/opt/libmcrypt/lib/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/pcre/lib/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/curlssl/lib/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/xml2/lib/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/pcre/lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/curlssl//lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/php_with_imap_client//lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/opt/libmcrypt//lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/usr/lib64/tls/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/usr/lib64/libgcc_s.so.1", O_RDONLY) = -1 ENOENT (No such file or directory)
+9283  00:16:06 open("/etc/ld.so.cache", O_RDONLY) = 3
+9283  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=1213468, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=64, st_size=31033, st_atime=2016/01/26-23:49:11, st_mtime=2016/01/25-23:49:09, st_ctime=2016/01/25-23:49:09}) = 0
+9283  00:16:06 mmap(NULL, 31033, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3598de2000
+9283  00:16:06 close(3)                 = 0
+9283  00:16:06 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f3584513000
+9283  00:16:06 munmap(0x7f3584513000, 61788160) = 0
+9283  00:16:06 munmap(0x7f358c000000, 5320704) = 0
+9283  00:16:06 mprotect(0x7f3588000000, 135168, PROT_READ|PROT_WRITE) = 0
+9283  00:16:06 open("/lib64/libgcc_s.so.1", O_RDONLY) = 3
+9283  00:16:06 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20)\0\0\0\0\0\0"..., 832) = 832
+9283  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=13893949, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=192, st_size=90880, st_atime=2016/01/26-21:10:08, st_mtime=2015/07/22-22:03:32, st_ctime=2016/01/25-21:09:44}) = 0
+9283  00:16:06 mmap(NULL, 2186584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f358c2fd000
+9283  00:16:06 mprotect(0x7f358c313000, 2093056, PROT_NONE) = 0
+9283  00:16:06 mmap(0x7f358c512000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f358c512000
+9283  00:16:06 close(3)                 = 0
+9283  00:16:06 munmap(0x7f3598de2000, 31033) = 0
+9283  00:16:06 futex(0x7f358c512af0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9283  00:16:06 madvise(0x7f358c513000, 8368128, MADV_DONTNEED) = 0
+9283  00:16:06 _exit(0)                 = ?
+9283  00:16:06 +++ exited with 0 +++
+9282  00:16:06 <... futex resumed> )    = 0
+9282  00:16:06 open("/sys/devices/system/cpu", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 3
+9282  00:16:06 fcntl(3, F_GETFD)        = 0x1 (flags FD_CLOEXEC)
+9282  00:16:06 getdents(3, {{d_ino=22, d_off=1, d_reclen=24, d_name=".", d_type=DT_DIR} {d_ino=21, d_off=23, d_reclen=24, d_name="..", d_type=DT_DIR} {d_ino=23, d_off=24, d_reclen=32, d_name="online", d_type=DT_REG} {d_ino=24, d_off=25, d_reclen=32, d_name="possible", d_type=DT_REG} {d_ino=25, d_off=26, d_reclen=32, d_name="present", d_type=DT_REG} {d_ino=26, d_off=27, d_reclen=32, d_name="kernel_max", d_type=DT_REG} {d_ino=27, d_off=28, d_reclen=32, d_name="offline", d_type=DT_REG} {d_ino=28, d_off=339, d_reclen=48, d_name="sched_mc_power_savings", d_type=DT_REG} {d_ino=339, d_off=340, d_reclen=32, d_name="cpufreq", d_type=DT_DIR} {d_ino=340, d_off=433, d_reclen=32, d_name="cpuidle", d_type=DT_DIR} {d_ino=433, d_off=436, d_reclen=24, d_name="cpu0", d_type=DT_DIR} {d_ino=436, d_off=440, d_reclen=24, d_name="cpu1", d_type=DT_DIR} {d_ino=440, d_off=444, d_reclen=24, d_name="cpu2", d_type=DT_DIR} {d_ino=444, d_off=448, d_reclen=24, d_name="cpu3", d_type=DT_DIR} {d_ino=448, d_off=452, d_reclen=24, d_name="cpu4", d_type=DT_DIR} {d_ino=452, d_off=456, d_reclen=24, d_name="cpu5", d_type=DT_DIR} {d_ino=456, d_off=460, d_reclen=24, d_name="cpu6", d_type=DT_DIR} {d_ino=460, d_off=1384, d_reclen=24, d_name="cpu7", d_type=DT_DIR} {d_ino=1384, d_off=2147483647, d_reclen=32, d_name="perf_events", d_type=DT_DIR}}, 32768) = 544
+9282  00:16:06 getdents(3, {}, 32768)   = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+9282  00:16:06 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = 0
+9282  00:16:06 sendto(3, "\2\0\0\0\22\0\0\0\t\0\0\0services\0", 21, MSG_NOSIGNAL, NULL, 0) = 21
+9282  00:16:06 poll([{fd=3, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=3, revents=POLLIN|POLLHUP}])
+9282  00:16:06 recvmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"services\0", 9}, {"\270O\3\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {4}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 17
+9282  00:16:06 mmap(NULL, 217016, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598c0a000
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 rt_sigaction(SIGPIPE, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f359477f6a0}, {SIG_IGN, [PIPE], SA_RESTORER|SA_RESTART, 0x7f359477f6a0}, 8) = 0
+9282  00:16:06 brk(0x1f4d000)           = 0x1f4d000
+9282  00:16:06 brk(0x1f6e000)           = 0x1f6e000
+9282  00:16:06 brk(0x1f8f000)           = 0x1f8f000
+9282  00:16:06 brk(0x1fb0000)           = 0x1fb0000
+9282  00:16:06 stat("/etc/cram-md5.pwd", 0x7fff7c864b00) = -1 ENOENT (No such file or directory)
+9282  00:16:06 uname({sysname="Linux", nodename="sis01.sisrnservers.net", release="2.6.32-71.29.1.el6.x86_64", version="#1 SMP Mon Jun 27 19:49:27 BST 2011", machine="x86_64", domainname="(none)"}) = 0
+9282  00:16:06 alarm(0)                 = 0
+9282  00:16:06 open("/etc/resolv.conf", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=1212625, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=44, st_atime=2016/01/26-23:25:29, st_mtime=2016/01/25-23:25:17, st_ctime=2016/01/25-23:25:17}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598c09000
+9282  00:16:06 read(3, "nameserver 213.186.33.99\nnameser"..., 4096) = 44
+9282  00:16:06 read(3, "", 4096)        = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598c09000, 4096) = 0
+9282  00:16:06 uname({sysname="Linux", nodename="sis01.sisrnservers.net", release="2.6.32-71.29.1.el6.x86_64", version="#1 SMP Mon Jun 27 19:49:27 BST 2011", machine="x86_64", domainname="(none)"}) = 0
+9282  00:16:06 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+9282  00:16:06 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = 0
+9282  00:16:06 sendto(3, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+9282  00:16:06 poll([{fd=3, events=POLLIN|POLLERR|POLLHUP}], 1, 5000) = 1 ([{fd=3, revents=POLLIN}])
+9282  00:16:06 recvmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"hosts\0", 6}, {"\270O\3\0\0\0\0\0", 8}], msg_controllen=24, {cmsg_len=20, cmsg_level=SOL_SOCKET, cmsg_type=SCM_RIGHTS, {4}}, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 14
+9282  00:16:06 mmap(NULL, 217016, PROT_READ, MAP_SHARED, 4, 0) = 0x7f358c2c8000
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 alarm(0)                 = 0
+9282  00:16:06 futex(0x7f3593cd1308, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 futex(0x7f3593cd1290, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 futex(0x7f3595c7f2c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 futex(0x7f3595c7f750, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 gettimeofday({1453860966, 271363}, NULL) = 0
+9282  00:16:06 stat("/etc/krb5.conf", {st_dev=makedev(202, 1), st_ino=1212642, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=449, st_atime=2016/01/26-21:36:04, st_mtime=2015/04/10-12:46:40, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 open("/etc/krb5.conf", O_RDONLY) = 3
+9282  00:16:06 fcntl(3, F_SETFD, FD_CLOEXEC) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=1212642, st_mode=S_IFREG|0644, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=449, st_atime=2016/01/26-21:36:04, st_mtime=2015/04/10-12:46:40, st_ctime=2016/01/25-21:10:31}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "[logging]\n default = FILE:/var/l"..., 4096) = 449
+9282  00:16:06 read(3, "", 4096)        = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 gettimeofday({1453860966, 273253}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 273409}, NULL) = 0
+9282  00:16:06 open("/dev/urandom", O_RDONLY) = 3
+9282  00:16:06 fcntl(3, F_SETFD, FD_CLOEXEC) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(0, 5), st_ino=3598, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2016/01/25-21:02:46, st_mtime=2016/01/25-21:02:46, st_ctime=2016/01/25-21:02:46}) = 0
+9282  00:16:06 read(3, "\206\261\232Q\350(\257\334>$b\226\2271\371_D\372\361\1s\344\347\253\257\260B\371\374\342\347\35"..., 64) = 64
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 open("/dev/urandom", O_RDONLY) = 3
+9282  00:16:06 fcntl(3, F_SETFD, FD_CLOEXEC) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(0, 5), st_ino=3598, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2016/01/25-21:02:46, st_mtime=2016/01/25-21:02:46, st_ctime=2016/01/25-21:02:46}) = 0
+9282  00:16:06 read(3, "afF\307\367\214\25\236C\3\33G\31g\246\353\261\324\335U1\231\334\316?\354oI\251k\270\225"..., 64) = 64
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 futex(0x7f35959972c0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 gettimeofday({1453860966, 275573}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 275728}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 275892}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276028}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276166}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276302}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276439}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276585}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276725}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 276896}, NULL) = 0
+9282  00:16:06 open("/etc/krb5.keytab", O_RDONLY) = -1 ENOENT (No such file or directory)
+9282  00:16:06 futex(0x7f3595ec30a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+9282  00:16:06 stat("/dev/urandom", {st_dev=makedev(0, 5), st_ino=3598, st_mode=S_IFCHR|0666, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_rdev=makedev(1, 9), st_atime=2016/01/25-21:02:46, st_mtime=2016/01/25-21:02:46, st_ctime=2016/01/25-21:02:46}) = 0
+9282  00:16:06 brk(0x1fd1000)           = 0x1fd1000
+9282  00:16:06 gettimeofday({1453860966, 279307}, NULL) = 0
+9282  00:16:06 brk(0x1ff2000)           = 0x1ff2000
+9282  00:16:06 brk(0x2013000)           = 0x2013000
+9282  00:16:06 brk(0x2034000)           = 0x2034000
+9282  00:16:06 brk(0x2055000)           = 0x2055000
+9282  00:16:06 socket(PF_INET, SOCK_DGRAM, IPPROTO_IP) = 3
+9282  00:16:06 ioctl(3, SIOCGIFCONF, {160, {{"lo", {AF_INET, inet_addr("127.0.0.1")}}, {"eth0", {AF_INET, inet_addr("149.56.0.64")}}, {"eth0:0", {AF_INET, inet_addr("149.56.0.65")}}, {"eth0:1", {AF_INET, inet_addr("149.56.0.66")}}}}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFHWADDR, {ifr_name="lo", ifr_hwaddr=00:00:00:00:00:00}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFADDR, {ifr_name="lo", ifr_addr={AF_INET, inet_addr("127.0.0.1")}}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFHWADDR, {ifr_name="eth0", ifr_hwaddr=02:00:00:7c:78:56}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFADDR, {ifr_name="eth0", ifr_addr={AF_INET, inet_addr("149.56.0.64")}}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFHWADDR, {ifr_name="eth0:0", ifr_hwaddr=02:00:00:7c:78:56}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFADDR, {ifr_name="eth0:0", ifr_addr={AF_INET, inet_addr("149.56.0.65")}}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFHWADDR, {ifr_name="eth0:1", ifr_hwaddr=02:00:00:7c:78:56}) = 0
+9282  00:16:06 ioctl(3, SIOCGIFADDR, {ifr_name="eth0:1", ifr_addr={AF_INET, inet_addr("149.56.0.66")}}) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 gettimeofday({1453860966, 283809}, NULL) = 0
+9282  00:16:06 open("index.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=40, st_size=19284, st_atime=2016/01/26-14:05:12, st_mtime=2015/10/28-17:09:03, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de9000
+9282  00:16:06 read(3, "<?php $PAGE = \"Casas em Orlando "..., 4096) = 4096
+9282  00:16:06 lseek(3, 0, SEEK_SET)    = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 285157}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/index.php", {st_dev=makedev(202, 1), st_ino=656527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=40, st_size=19284, st_atime=2016/01/26-14:05:12, st_mtime=2015/10/28-17:09:03, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html", {st_dev=makedev(202, 1), st_ino=655505, st_mode=S_IFDIR|0750, st_nlink=20, st_uid=698, st_gid=99, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-13:59:01, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/27-00:16:06}) = 0
+9282  00:16:06 lstat("/home/cidadeor", {st_dev=makedev(202, 1), st_ino=655492, st_mode=S_IFDIR|0711, st_nlink=19, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-19:11:45, st_mtime=2016/01/26-13:58:17, st_ctime=2016/01/26-13:58:46}) = 0
+9282  00:16:06 lstat("/home", {st_dev=makedev(202, 1), st_ino=32505857, st_mode=S_IFDIR|0711, st_nlink=201, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=40, st_size=20480, st_atime=2016/01/26-23:35:08, st_mtime=2016/01/26-23:34:28, st_ctime=2016/01/26-23:34:28}) = 0
+9282  00:16:06 rt_sigaction(SIGPROF, {0x794870, [PROF], SA_RESTORER|SA_RESTART, 0x7f359477f6a0}, {SIG_DFL, [], 0}, 8) = 0
+9282  00:16:06 rt_sigprocmask(SIG_UNBLOCK, [PROF], NULL, 8) = 0
+9282  00:16:06 gettimeofday({1453860966, 287009}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 287142}, NULL) = 0
+9282  00:16:06 fstat(0, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 fstat(0, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 fstat(0, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de8000
+9282  00:16:06 lseek(0, 0, SEEK_CUR)    = -1 ESPIPE (Illegal seek)
+9282  00:16:06 fstat(1, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 fstat(1, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 fstat(1, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f3598de7000
+9282  00:16:06 lseek(1, 0, SEEK_CUR)    = -1 ESPIPE (Illegal seek)
+9282  00:16:06 fstat(2, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 fstat(2, {st_dev=makedev(0, 11), st_ino=3, st_mode=S_IFCHR|0620, st_nlink=1, st_uid=0, st_gid=5, st_blksize=1024, st_blocks=0, st_rdev=makedev(136, 0), st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/26-23:34:21}) = 0
+9282  00:16:06 lseek(2, 0, SEEK_CUR)    = -1 ESPIPE (Illegal seek)
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 288191}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/index.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=656527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=40, st_size=19284, st_atime=2016/01/26-14:05:12, st_mtime=2015/10/28-17:09:03, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 19284, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de2000
+9282  00:16:06 munmap(0x7f3598de2000, 19284) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 ioctl(3, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff7c862350) = -1 ENOTTY (Inappropriate ioctl for device)
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656527, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=40, st_size=19284, st_atime=2016/01/26-14:05:12, st_mtime=2015/10/28-17:09:03, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 19316, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f3598de2000
+9282  00:16:06 mmap(NULL, 266240, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f358c287000
+9282  00:16:06 munmap(0x7f358c287000, 266240) = 0
+9282  00:16:06 brk(0x20a4000)           = 0x20a4000
+9282  00:16:06 munmap(0x7f3598de2000, 19316) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 munmap(0x7f3598de9000, 4096) = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 289671}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./cabecalho.php", {st_dev=makedev(202, 1), st_ino=656517, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4093, st_atime=2016/01/26-14:05:12, st_mtime=2015/12/04-15:27:45, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/cabecalho.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656517, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4093, st_atime=2016/01/26-14:05:12, st_mtime=2015/12/04-15:27:45, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 4093, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de9000
+9282  00:16:06 munmap(0x7f3598de9000, 4093) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 290176}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/cabecalho.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656517, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4093, st_atime=2016/01/26-14:05:12, st_mtime=2015/12/04-15:27:45, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656517, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4093, st_atime=2016/01/26-14:05:12, st_mtime=2015/12/04-15:27:45, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656517, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4093, st_atime=2016/01/26-14:05:12, st_mtime=2015/12/04-15:27:45, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 read(3, "<?\n\t/*if (isset($_COOKIE['cidade"..., 8192) = 4093
+9282  00:16:06 read(3, "", 8192)        = 0
+9282  00:16:06 read(3, "", 8192)        = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 290898}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./languages/pt.php", {st_dev=makedev(202, 1), st_ino=657754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=8692, st_atime=2016/01/26-14:05:13, st_mtime=2015/07/10-17:05:58, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./languages", {st_dev=makedev(202, 1), st_ino=655658, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:36:46, st_mtime=2015/03/18-14:22:31, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/languages/pt.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=657754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=8692, st_atime=2016/01/26-14:05:13, st_mtime=2015/07/10-17:05:58, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 8692, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de4000
+9282  00:16:06 munmap(0x7f3598de4000, 8692) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 291498}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/languages/pt.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=657754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=8692, st_atime=2016/01/26-14:05:13, st_mtime=2015/07/10-17:05:58, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=657754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=8692, st_atime=2016/01/26-14:05:13, st_mtime=2015/07/10-17:05:58, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=657754, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=8692, st_atime=2016/01/26-14:05:13, st_mtime=2015/07/10-17:05:58, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 8692, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de4000
+9282  00:16:06 munmap(0x7f3598de4000, 8692) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 write(1, "<!DOCTYPE html>\n<html>\n\t<head>\n "..., 48) = 48
+9282  00:16:06 write(1, "        \n        <meta property="..., 596) = 596
+9282  00:16:06 write(1, "        \n\t\t<meta name=\"Author\" C"..., 252) = 252
+9282  00:16:06 gettimeofday({1453860966, 292476}, NULL) = 0
+9282  00:16:06 write(1, "2016", 4)      = 4
+9282  00:16:06 write(1, " Cidade Orlando\" />\n\t\t<meta name"..., 811) = 811
+9282  00:16:06 write(1, "Casas em Orlando para compra, al"..., 45) = 45
+9282  00:16:06 write(1, " | CIDADE ORLANDO</title>\n\t\t\n\t\t<"..., 484) = 484
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 293034}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./scripts.php", {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 gettimeofday({1453860966, 293220}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/scripts.php", {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/scripts.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 4101, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de5000
+9282  00:16:06 open("/home/cidadeor/public_html/scripts.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=656537, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4101, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:31:34, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 4101, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de3000
+9282  00:16:06 munmap(0x7f3598de3000, 4101) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 munmap(0x7f3598de5000, 4101) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 write(1, "<script type=\"text/javascript\" s"..., 4101) = 4101
+9282  00:16:06 write(1, "  \n        \n        \n\t\t\t\t\n\t</hea"..., 59) = 59
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 294633}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./topo.php", {st_dev=makedev(202, 1), st_ino=656541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3067, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:02:12, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/topo.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3067, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:02:12, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 3067, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 3067) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 295220}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/topo.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3067, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:02:12, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3067, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:02:12, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=656541, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3067, st_atime=2016/01/26-14:05:13, st_mtime=2015/12/03-18:02:12, st_ctime=2016/01/26-12:23:59}) = 0
+9282  00:16:06 mmap(NULL, 3067, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 3067) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 295835}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/work/work_index.php", {st_dev=makedev(202, 1), st_ino=665919, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=767, st_atime=2016/01/26-14:05:06, st_mtime=2015/03/04-17:53:10, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/work", {st_dev=makedev(202, 1), st_ino=665098, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/07-18:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes", {st_dev=makedev(202, 1), st_ino=655659, st_mode=S_IFDIR|0755, st_nlink=7, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-19:11:51, st_mtime=2014/09/03-11:45:52, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/work/work_index.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=665919, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=767, st_atime=2016/01/26-14:05:06, st_mtime=2015/03/04-17:53:10, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 767, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 767) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 296533}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/work/work_index.php", O_RDONLY) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=665919, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=767, st_atime=2016/01/26-14:05:06, st_mtime=2015/03/04-17:53:10, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=665919, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=767, st_atime=2016/01/26-14:05:06, st_mtime=2015/03/04-17:53:10, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=665919, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=767, st_atime=2016/01/26-14:05:06, st_mtime=2015/03/04-17:53:10, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 767, PROT_READ, MAP_SHARED, 3, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 767) = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 gettimeofday({1453860966, 297131}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 297176}, NULL) = 0
+9282  00:16:06 gettimeofday({1453860966, 297223}, NULL) = 0
+9282  00:16:06 open("/tmp/sess_0bdb19cc6e1e0c4aa2f9f716b2b93a60", O_RDWR|O_CREAT|O_NOFOLLOW, 0600) = 3
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=28714495, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/27-00:16:06}) = 0
+9282  00:16:06 flock(3, LOCK_EX)        = 0
+9282  00:16:06 fcntl(3, F_SETFD, FD_CLOEXEC) = 0
+9282  00:16:06 fstat(3, {st_dev=makedev(202, 1), st_ino=28714495, st_mode=S_IFREG|0600, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=0, st_size=0, st_atime=2016/01/27-00:16:06, st_mtime=2016/01/27-00:16:06, st_ctime=2016/01/27-00:16:06}) = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 297764}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/controller/GeralController.php", {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/controller", {st_dev=makedev(202, 1), st_ino=665095, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/08-20:21:25, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 gettimeofday({1453860966, 297997}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller/GeralController.php", {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller", {st_dev=makedev(202, 1), st_ino=665095, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/08-20:21:25, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes", {st_dev=makedev(202, 1), st_ino=655659, st_mode=S_IFDIR|0755, st_nlink=7, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-19:11:51, st_mtime=2014/09/03-11:45:52, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/GeralController.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 843, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/GeralController.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665903, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=843, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 843, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de5000
+9282  00:16:06 munmap(0x7f3598de5000, 843) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de6000, 843) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 299295}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/dao/GeralDAO.php", {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/dao", {st_dev=makedev(202, 1), st_ino=665096, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/08-20:21:19, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 gettimeofday({1453860966, 299524}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/dao/GeralDAO.php", {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/dao", {st_dev=makedev(202, 1), st_ino=665096, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/08-20:21:19, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/GeralDAO.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1090, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/GeralDAO.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665907, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1090, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:35, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1090, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de5000
+9282  00:16:06 munmap(0x7f3598de5000, 1090) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de6000, 1090) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 300647}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/model/geral.php", {st_dev=makedev(202, 1), st_ino=665912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1101, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:51, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/model", {st_dev=makedev(202, 1), st_ino=665097, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-23:38:06, st_mtime=2014/09/08-20:21:12, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/model/geral.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1101, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:51, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1101, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 1101) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 301223}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/model/geral.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1101, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:51, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1101, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:51, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665912, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1101, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:51, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1101, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 munmap(0x7f3598de6000, 1101) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 301860}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/dao/LogDAO.php", {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 gettimeofday({1453860966, 302019}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/dao/LogDAO.php", {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/LogDAO.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1669, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/LogDAO.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665909, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1669, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/03-11:45:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1669, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de5000
+9282  00:16:06 munmap(0x7f3598de5000, 1669) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de6000, 1669) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 303195}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/controller/ControllerGeral.php", {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 gettimeofday({1453860966, 303369}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller/ControllerGeral.php", {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/ControllerGeral.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 3662, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/ControllerGeral.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665901, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=3662, st_atime=2016/01/26-14:05:06, st_mtime=2014/09/08-20:30:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 3662, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de5000
+9282  00:16:06 munmap(0x7f3598de5000, 3662) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de6000, 3662) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 gettimeofday({1453860966, 304660}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller/../conector/PDOConnectionFactory.php", {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller/../conector", {st_dev=makedev(202, 1), st_ino=665094, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-19:11:54, st_mtime=2016/01/27-00:15:20, st_ctime=2016/01/27-00:15:20}) = 0
+9282  00:16:06 gettimeofday({1453860966, 304919}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/conector/PDOConnectionFactory.php", {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/conector", {st_dev=makedev(202, 1), st_ino=665094, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2016/01/26-19:11:54, st_mtime=2016/01/27-00:15:20, st_ctime=2016/01/27-00:15:20}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/conector/PDOConnectionFactory.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1249, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de6000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/conector/PDOConnectionFactory.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665900, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=8, st_size=1249, st_atime=2016/01/26-14:05:06, st_mtime=2016/01/08-11:05:38, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 1249, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de5000
+9282  00:16:06 munmap(0x7f3598de5000, 1249) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de6000, 1249) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 306175}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/controller/ImovelController.php", {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 gettimeofday({1453860966, 306318}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/pacotes/controller/ImovelController.php", {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/ImovelController.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 4570, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de5000
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/controller/ImovelController.php", O_RDONLY) = 5
+9282  00:16:06 fstat(5, {st_dev=makedev(202, 1), st_ino=665904, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=16, st_size=4570, st_atime=2016/01/26-14:05:06, st_mtime=2015/02/11-17:00:22, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 4570, PROT_READ, MAP_SHARED, 5, 0) = 0x7f3598de3000
+9282  00:16:06 munmap(0x7f3598de3000, 4570) = 0
+9282  00:16:06 close(5)                 = 0
+9282  00:16:06 munmap(0x7f3598de5000, 4570) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 307653}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/dao/ImovelDAO.php", {st_dev=makedev(202, 1), st_ino=665908, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=32, st_size=12717, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:16:28, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/ImovelDAO.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665908, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=32, st_size=12717, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:16:28, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 12717, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de3000
+9282  00:16:06 munmap(0x7f3598de3000, 12717) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 308159}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/dao/ImovelDAO.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665908, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=32, st_size=12717, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:16:28, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665908, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=32, st_size=12717, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:16:28, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665908, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=32, st_size=12717, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:16:28, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 12717, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de3000
+9282  00:16:06 brk(0x20e5000)           = 0x20e5000
+9282  00:16:06 munmap(0x7f3598de3000, 12717) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 309598}, NULL) = 0
+9282  00:16:06 lstat("/home/cidadeor/public_html/./pacotes/model/imovel.php", {st_dev=makedev(202, 1), st_ino=665913, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=9546, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:17:50, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/model/imovel.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665913, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=9546, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:17:50, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 9546, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de4000
+9282  00:16:06 munmap(0x7f3598de4000, 9546) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 310177}, NULL) = 0
+9282  00:16:06 open("/home/cidadeor/public_html/pacotes/model/imovel.php", O_RDONLY) = 4
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665913, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=9546, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:17:50, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665913, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=9546, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:17:50, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 fstat(4, {st_dev=makedev(202, 1), st_ino=665913, st_mode=S_IFREG|0644, st_nlink=1, st_uid=698, st_gid=697, st_blksize=4096, st_blocks=24, st_size=9546, st_atime=2016/01/26-14:05:06, st_mtime=2015/06/17-09:17:50, st_ctime=2016/01/26-12:24:36}) = 0
+9282  00:16:06 mmap(NULL, 9546, PROT_READ, MAP_SHARED, 4, 0) = 0x7f3598de4000
+9282  00:16:06 munmap(0x7f3598de4000, 9546) = 0
+9282  00:16:06 close(4)                 = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 311257}, NULL) = 0
+9282  00:16:06 getcwd("/home/cidadeor/public_html", 4096) = 27
+9282  00:16:06 gettimeofday({1453860966, 311354}, NULL) = 0
+9282  00:16:06 write(1, "Erro: Erro de Conex\303\243o com BD!!", 31) = 31
+9282  00:16:06 pwrite(3, "", 0, 0)      = 0
+9282  00:16:06 close(3)                 = 0
+9282  00:16:06 close(2)                 = 0
+9282  00:16:06 close(1)                 = 0
+9282  00:16:06 munmap(0x7f3598de7000, 4096) = 0
+9282  00:16:06 close(0)                 = 0
+9282  00:16:06 munmap(0x7f3598de8000, 4096) = 0
+9282  00:16:06 munmap(0x7f358cd14000, 2123536) = 0
+9282  00:16:06 munmap(0x7f358cf1b000, 2864512) = 0
+9282  00:16:06 munmap(0x7f358d1d7000, 2197776) = 0
+9282  00:16:06 gettimeofday({1453860966, 313186}, NULL) = 0
+9282  00:16:06 munmap(0x7f358d3f0000, 2236280) = 0
+9282  00:16:06 munmap(0x7f3598c8e000, 1052672) = 0
+9282  00:16:06 munmap(0x7f3598d8f000, 266240) = 0
+9282  00:16:06 munmap(0x7f3598c3f000, 323584) = 0
+9282  00:16:06 exit_group(0)            = ?
+9282  00:16:06 +++ exited with 0 +++

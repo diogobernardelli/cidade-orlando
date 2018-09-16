@@ -1,0 +1,25 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.cidadeorlando\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cidadeorlando\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^voumorarnadisney\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.voumorarnadisney\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cidadeorlando\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^aminhacasanadisney\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.aminhacasanadisney\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cidadeorlando\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^acidadeorlando\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.acidadeorlando\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cidadeorlando\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^acheiminhacasanadisney\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.acheiminhacasanadisney\.com\.br$
+RewriteRule ^/?$ "http\:\/\/cidadeorlando\.com\.br\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^cidadeorlando\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.cidadeorlando\.com$
+RewriteRule ^/?$ "http\:\/\/www\.cidadeorlando\.com\.br\/" [R=301,L]
+

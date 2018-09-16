@@ -1,0 +1,5 @@
+[07-Aug-2017 22:59:27 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_header() in /home/cidadeor/public_html/blog/wp-content/themes/sparkling/404.php on line 8
+[13-Aug-2017 02:12:46 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_header() in /home/cidadeor/public_html/blog/wp-content/themes/sparkling/404.php on line 8
+[13-Aug-2017 02:12:46 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_header() in /home/cidadeor/public_html/blog/wp-content/themes/sparkling/archive.php on line 10
+[13-Aug-2017 02:12:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined function language_attributes() in /home/cidadeor/public_html/blog/wp-content/themes/sparkling/header.php on line 11
+[17-Aug-2017 10:12:43 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_header() in /home/cidadeor/public_html/blog/wp-content/themes/sparkling/index.php on line 14
