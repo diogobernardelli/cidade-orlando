@@ -1,11 +1,13 @@
 # Cidade Orlando
 
+**Cidade Orlando** is a web project for sale and rent of real estate and properties in Orlando and surrounding cities.
+
 ## Details:
 
 >URL Production: http://www.cidadeorlando.com.br
 
 
-## Project Setupe
+## Project Setup
 ------------------------
 
 ### Dependences
